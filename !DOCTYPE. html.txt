@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Tu Nombre - Consultora y Desarrolladora de Proyectos de Impacto Social</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        nav {
+            margin-top: 20px;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        nav a:hover {
+            color: #007BFF;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 40px;
+        }
+        h2 {
+            font-size: 2em;
+            color: #333;
+            border-bottom: 2px solid #007BFF;
+            padding-bottom: 10px;
+        }
+        p {
+            line-height: 1.6;
+            font-size: 1.1em;
+        }
+        .services, .projects {
+            display: flex;
+            justify-content: space-between;
+        }
+        .services div, .projects div {
+            width: 30%;
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+            position: absolute;
+            width: 100%;
+            bottom: 0;
+        }
+        .social-links a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .social-links a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Tu Nombre</h1>
+    <p>Consultora y Desarrolladora de Proyectos de Impacto Social</p>
+</header>
+
+<nav>
+    <a href="#bio">Biografía</a>
+    <a href="#projects">Proyectos</a>
+    <a href="#services">Servicios</a>
+    <a href="#contact">Contacto</a>
+</nav>
+
+<div class="container">
+
+    <!-- Biografía -->
+    <section id="bio">
+        <h2>Biografía</h2>
+        <p>Con más de 30 años de experiencia en marketing deportivo y como pionera en la industria, he trabajado con los clubes más reconocidos a nivel internacional, gestionando patrocinios y llevando la carrera de pilotos de motociclismo de alto nivel. Actualmente, mi enfoque está en el desarrollo de proyectos que generen impacto social, combinando mi pasión por el liderazgo y la salud con mi experiencia en la creación de contenido y estrategias digitales.</p>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="projects">
+        <h2>Proyectos</h2>
+        <div class="projects">
+            <div>
+                <h3>Audaç</h3>
+                <p>Una marca de colecciones cápsula creadas por mujeres de diversas edades y nacionalidades. El proyecto fomenta la creatividad y lucha contra el edadismo.</p>
+            </div>
+            <div>
+                <h3>Documental sobre fútbol</h3>
+                <p>Un documental que narra la evolución del fútbol en Europa durante los últimos 50 años, mostrando su impacto cultural y social.</p>
+            </div>
+            <div>
+                <h3>Proyecto regional de historia</h3>
+                <p>Iniciativa para promover la historia de mi región, utilizando tecnologías digitales avanzadas y IA, en colaboración con el centro de ciencias y artes más importante del mundo.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios -->
+    <section id="services">
+        <h2>Servicios</h2>
+        <div class="services">
+            <div>
+                <h3>Consultoría en Proyectos de Impacto Social</h3>
+                <p>Asesoramiento para el diseño y la implementación de proyectos sociales que generen un cambio positivo en las comunidades.</p>
+            </div>
+            <div>
+                <h3>Desarrollo de Estrategias de Marketing</h3>
+                <p>Creación de estrategias digitales y de marketing para impulsar marcas, especialmente en sectores creativos y sociales.</p>
+            </div>
+            <div>
+                <h3>Conferencias y Talleres</h3>
+                <p>Charlas y talleres sobre liderazgo, salud y cómo desarrollar proyectos que marquen la diferencia.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacto -->
+    <section id="contact">
+        <h2>Contacto</h2>
+        <p>Si deseas más información sobre mis proyectos o servicios, no dudes en contactarme:</p>
+        <p>Email: <a href="mailto:tuemail@dominio.com">tuemail@dominio.com</a></p>
+        <p>Teléfono: +34 600 000 000</p>
+        <p>Ubicación: Ciudad, País</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://www.twitter.com" target="_blank">Twitter</a>
+            <a href="https://www.instagram.com" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+</div>
+
+<footer>
+    <p>&copy; 2024 Tu Nombre. Todos los derechos reservados.</p>
+</footer>
+
+</body>
+</html>
